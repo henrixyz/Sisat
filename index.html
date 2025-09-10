@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="utf-8">
+      <title>my first page</title>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+body{
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 400;
+    color: #e2dfdf  ;
+    background-color: #e2dfdf;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    min-height: 100vh;      
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 100px;
+
+}
+
+.container-1{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.container-2{
+    position: relative;
+    display: flex;
+    justify-content:left; 
+    align-items: center;
+}
+.container-3{
+    position: relative;
+    display: flex;
+    justify-content: right; 
+    align-items: center;
+}
+
+.container-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.c2{
+    margin-left: 6rem;   
+}
+
+.c3{
+    margin-right: 2%;   
+}
+
+section:hover{
+    transform: scale(1.02)
+}
+section{
+    display: block;
+    width: 40rem;
+    height: 13rem;
+    background-color: #7e7e7e;
+    border-radius: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+img{
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style-type: square;
+}
+      </style>
+  </head>
+  <body>
+    <!-- <button onclick="ligarCss()">ligar css</button> -->
+
+    <div class="container">
+
+
+      <section class="container-1" onclick="mostrarSecao(0)">
+        <h1>FRANCISCO HENRIQUE OLIVEIRA BEZERRA</h1>
+        <img src="img/1.png" class="image" alt="homem" >  
+        <p>sou de Iguatu. Aprecio desenvolvimento mobile,design UI/UX e, atualmente, tenho mais projetos idealizados do que concluídos.</p>
+      </section>
+      
+        <section class="container-2">
+          <img src="img/2.png" class="image" alt="homem" >
+          <div class="container-wrapper c2">
+            <h2><b>HOBBIES</b></h2>
+            <ul>
+              <li>escutar discos</li>
+              <li>ler clásssicos</li>
+              <li>tocar instrumento</li>
+            </ul>
+            </div> 
+        </section>
+      
+      <section class="container-3">
+
+        <div class="container-wrapper c3">
+          <h2><b>QUERO APRENDER</b></h2>
+          <ol>
+            <li>desenvolver artigos</li>
+            <li>desenvolver aplicativos mobile</li>
+            <li>desenvolver meus próprios jogos </li>  
+          </ol>
+        </div>
+        <img src="img/3.png" class="image" alt="homem" >
+      </section>
+    </div>
+
+  </body>
+  </html>
+  
+  
