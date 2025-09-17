@@ -5,7 +5,7 @@
     justify-content: center;
     background-color: #F6F7FA;
     row-gap: 1rem;
-    padding: 3.5rem 0rem;
+    padding: 2.5rem 0rem;
     text-align: center;
 }
 .container-wrapper{
@@ -17,7 +17,7 @@
     margin: 3rem 0rem;
 }
 
-button{
+.btn-default{
     border-style: solid;
     background-color: #F6F7FA;
     width: 8.5rem;
@@ -25,7 +25,6 @@ button{
     border-radius: 3px;
     text-align: center;
     font-weight:600;
-    font-size: smaller;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +33,7 @@ button{
     border-color: blueviolet;
 }
 
-button:hover{
+.btn-default:hover{
     background-color: blueviolet;
     color:  #F6F7FA;
     border: 2px solid blueviolet;
