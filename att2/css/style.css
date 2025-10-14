@@ -4,8 +4,11 @@
 @import url('planos.css');
 @import url('pergunta.css');
 @import url('footer.css');
+@import url('vars.css');
+@import url('time.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 
 *{
@@ -17,6 +20,7 @@
 
 html{
     scroll-behavior: smooth ;
+    scroll-padding-top: 80px;
 }   
 body{
     background-color: rgb(255, 255, 255);   
@@ -30,6 +34,26 @@ a{
 
 p{
     color: #6C7890;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
+}
+
+.container-geral{
+    width: 100%;
+    background-color: var(--background) ;
+}
+
+.header-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+hr{
+    color: var(--white);
+    opacity: 0.2;
+    margin: 0;
 }

@@ -9,6 +9,9 @@
     height: 4rem;
     padding-left: 3rem;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.030);
+    position: sticky;
+    top:0; 
+    z-index: 999;
 }
 
 .container-navbar

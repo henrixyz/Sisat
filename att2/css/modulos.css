@@ -1,0 +1,40 @@
+.container-general-modulos {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    row-gap: 2.5rem;
+    
+   
+}
+
+.container-box-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+}
+
+.item-curso{
+    display: flex;
+    gap: 8px;
+}
+
+.line{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 0.3rem;
+}
+
+.bullet{
+    width: 24px;
+    height: 24px;
+    background-color: rgb(110, 33, 253);
+    border-radius: 16px;
+    /* flex-shrink: 0; */
+    aspect-ratio: 1/1;
+    margin-top: 0.3rem;
+}
