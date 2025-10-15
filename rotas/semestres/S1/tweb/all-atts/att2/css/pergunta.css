@@ -1,0 +1,50 @@
+.container-general-perguntas{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 2rem auto;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.btns-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+/* ----------------trend-------------------------------- */
+.container-general-trend{
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 3.5rem auto;
+    gap: 5rem;
+}
+
+.container-general-trend img{
+    width:50%;
+}
+
+.line-trend{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 0.5rem;
+    width: 20rem;
+}
+
+.line-trend h2{
+    max-width: 10rem;
+}
+
+.line-trend p{
+    max-width: 20rem;
+}
+
+.label-tag{
+    color: var(--purple);
+}

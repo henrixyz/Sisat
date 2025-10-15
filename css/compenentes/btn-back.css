@@ -1,0 +1,15 @@
+.btn-back{
+    display: flex;
+    position:fixed;
+    align-items: center;
+    justify-content: center;
+    bottom: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--white);
+    transition: 0.1s;
+    border-radius: 5px;
+}
+.btn-back:hover{
+    transform: scale(0.9);
+}
