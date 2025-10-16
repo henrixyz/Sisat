@@ -22,8 +22,9 @@
 .grid-poster h2{
     position: relative;
     bottom: -1rem;
-    left: 0.5rem;
-    width: 8rem;
+    left: 1rem;
+    width: 5rem;
+    text-transform: uppercase;
     font-weight: bolder;
     color: var(--white);
     line-height: 1.5rem;
