@@ -1,103 +1,68 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tabelas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>learn grid</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <table border="1px">
-        
-        <caption>Tabela de Notas de Alunos</caption>
-        <thead>
-          <th>Nome</th>
-          <th>Curso</th>
-          <th>Disciplina</th>
-          <th>Av1</th>
-          <th>Av2</th>
-          <th>Média N1</th>
-          <th>Av1</th>
-          <th>Av2</th>
-          <th>Média N2</th>
-        </thead>
+    <main class="container-wrap">
+      <div class="grid-left">
+        <div class="item">
+          <div class="item-content">
+            <h2>Kyoto</h2>
+            <p>Japan, The Zen Experience</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-content">
+            <h5>where history meets tranquilty</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+              exercitationem nobis quia, eveniet
+            </p>
+          </div>
+        </div>
+        <div class="item"></div>
+        <div class="item"></div>
 
-        <tbody>
-          <tr>
-            <td>aluno 1</td>
-            <td>S. Info</td>
-            <td>PWEB</td>
-            <td>6.0</td>
-            <td>7.0</td>
-            <td>6.5</td>
-            <td>7</td>
-            <td>8</td>
-            <td>7.5</td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td colspan="9">Média: </td>
-          </tr>
-        </tfoot>  
+        <div class="item-subgrid">
+          <div class="subitem">
+            <div class="item-content">
+              <p>previous</p>
+            </div>
+          </div>
+          <div class="subitem">
+            <div class="item-content">
+              <p>next</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <table border="1px">
-
-          <caption>Tabela de Horário Escolar</caption>
-          <thead>
-            <th></th>
-            <th>manha</th>
-            <th>tarde</th>
-            <th>noite</th>
-          </thead>
-          <tbody>
-            <tr>
-              <th>domingo</th>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <th>segunda</th>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            
-            <tr>
-              <th>terça</th>
-              <td></td>
-              <td></td>  
-              <td></td>
-            </tr>
-            <tr>
-              <th>quarta</th>
-              <td></td>
-              <td></td>
-              <td></td>  
-            </tr>
-            <tr>
-              <th>quinta</th>
-              <td></td>
-              <td></td>
-              <td></td>  
-            </tr>
-            <tr>
-              <th>sexta</th>
-              <td></td>
-              <td></td>
-              <td></td>  
-            </tr>
-            <tr>
-              <th>sábado</th>
-              <td></td>
-              <td></td>
-              <td></td>        
-            </tr>
-          </tbody>
-        </table>
-        
-      </table>
+      <div class="grid-right">
+        <div class="item">
+          <div class="item-content">
+            <h4>Explore</h4>
+            <p>Fushimi Inari Shrine, with its thousands of red torii gates</p>
+          </div>
+        </div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item">
+             <div class="item-content">
+              <h4>Stay</h4>
+              <p>Luxury Ryokan with private onsen</p>
+            </div>
+        </div>
+          <div class="item">
+            <div class="item-content">
+              <h4>Stay</h4>
+              <p>Luxury Ryokan with private onsen</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>

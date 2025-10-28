@@ -1,5 +1,5 @@
 .container-header{
-    max-width: 500px;
+    max-width: 100%;
     position: sticky;
     top: 0;
     background-color: rgb(255, 255, 255);
@@ -29,4 +29,12 @@ nav .fa-solid{
     gap: 0.3rem;
 }
 
+@media (min-width: 768px) {
+  .container-header{
+    max-width: 100%;
+  }
+}
 
+@media (min-width: 1024px) {
+  
+}

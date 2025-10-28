@@ -82,3 +82,49 @@
     font-weight: 700;
     font-size: 0.6rem;
 }
+
+@media (min-width:768px){
+    .container-main-content{
+        display: flex;
+        /* background-color: #90caf9; */
+        max-width: 640px;
+        align-items: center;
+    }
+
+    .carrosel img{
+        position: absolute;
+        right: 0.3rem;
+        bottom: -0.6rem;
+        width: 13rem;
+    }
+
+    .grid-poster h2{
+    position: relative;
+    bottom: -2rem;
+    left: 1.5rem;
+    width: 7rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: var(--white);
+    line-height: 2rem;
+    text-align: left;
+
+}
+
+
+    /* .teste{
+        width: 20rem;
+        height: 100vh;
+        background-color: aqua;
+    } */
+
+    .carrosel{
+        height: 250px;
+    }
+    .grid-container{
+        display: grid;
+        /* background-color: #fa0d0d; */
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
