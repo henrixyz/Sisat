@@ -1,7 +1,7 @@
 .container-main-content{
     display: flex;
     flex-direction: column;
-    max-width: 320px;
+    min-width: 80%;
     height: auto;
     margin: 1rem auto;
     row-gap: 1rem;
@@ -14,7 +14,6 @@
     background-color: var(--white);
     border-radius: 8px;
     text-align: center;
-    /* background-color: rgb(245, 138, 15); */
     background: linear-gradient(150deg, #fa0d0d, #ffbb00);
 
 }
@@ -110,14 +109,7 @@
     line-height: 2rem;
     text-align: left;
 
-}
-
-
-    /* .teste{
-        width: 20rem;
-        height: 100vh;
-        background-color: aqua;
-    } */
+    }
 
     .carrosel{
         height: 250px;

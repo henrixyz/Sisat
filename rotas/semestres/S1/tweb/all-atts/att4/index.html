@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Coffe Shop</title>
+  </head>
+
+  <body class="wrapper">
+    <header class="container-header">
+        <a href="/"><h2 class="logo">Coffe shop</h2></a>
+        
+        <div class="queue">
+          <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Cedro, CE</span>
+          </div>
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </header>
+
+
+        <main>
+          <section class="home">
+            <div class="container-flex-home">
+              <div class="box-content-home">
+                <h1>Encontre o café perfeito para qualquer hora do dia</h1>
+                <p>Com o Coffe Shop você tem acesso aos mais variados tipos de cafés do mercado.</p>
+                
+                <div class="grid-home-items">
+                  <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Compra simples e segura</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-box-open"></i>
+                    <span>Embalagem mantém o café intacto</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    <span>Entrega rápida e rastreada</span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <span>O café chega fresquinho até você</span>
+                  </div>
+                </div>
+                <div class="btns-home">
+                  <p>Comprar</p>
+                  <p>Explorar</p>
+                </div>
+            </div>
+          <img src="/img/cup-home.png" alt="">
+        </div>
+      </section>
+      <section class="products">
+        <div class="container-flex-products">
+          <h2>Nossos cafés</h2>
+
+          <div class="grid-products">
+            <div class="box-product">
+              <img src="./img/products/prod-1.png" alt="Expresso Tradicional">
+              <span class="tag-product">TRADICIONAL</span>
+              
+              <div class="product-title">
+                <h3>Expresso Tradicional</h3>
+                <p>O tradicional café feito com água quente e grãos moídos</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box-product">
+              <img src="./img/products/prod-2.png" alt="Expresso Americano">
+              <span class="tag-product">TRADICIONAL</span>
+              
+              <div class="product-title">
+                <h3>Expresso Americano</h3>
+                <p>Expresso diluído, menos intenso que o tradicional</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box-product">
+              <img src="./img/products/prod-3.png" alt="Expresso Cremoso">
+              <span class="tag-product">TRADICIONAL</span>
+              
+              <div class="product-title">
+                <h3>Expresso Cremoso</h3>
+                <p>Café expresso tradicional com espuma cremosa</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box-product">
+              <img src="./img/products/prod-4.png" alt="Expresso Gelado">
+              <div class="flex-center">
+                <span class="tag-product">TRADICIONAL</span>
+                <span class="tag-product">GELADO</span>
+              </div>
+              
+              <div class="product-title">
+                <h3>Expresso Gelado</h3>
+                <p>Bebida preparada com café expresso e cubos de gelo</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box-product">
+              <img src="./img/products/prod-5.png" alt="Café com Leite">
+              <div class="flex-center">
+                <span class="tag-product">TRADICIONAL</span>
+                <span class="tag-product">COM LEITE</span>
+              </div>
+              
+              <div class="product-title">
+                <h3>Café com Leite</h3>
+                <p>Meio a meio de expresso tradicional com leite vaporizado</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box-product">
+              <img src="./img/products/prod-6.png" alt="Latte">
+              <div class="flex-center">
+                <span class="tag-product">TRADICIONAL</span>
+                <span class="tag-product">COM LEITE</span>
+              </div>
+              
+              <div class="product-title">
+                <h3>Latte</h3>
+                <p>Uma dose de café expresso com o dobro de leite e espuma cremosa</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box-product">
+              <img src="./img/products/prod-7.png" alt="Capuccino">
+              <div class="flex-center">
+                <span class="tag-product">TRADICIONAL</span>
+                <span class="tag-product">COM LEITE</span>
+              </div>
+              
+              <div class="product-title">
+                <h3>Capuccino</h3>
+                <p>Bebida com canela feita de doses iguais de café, leite e espuma</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box-product">
+              <img src="./img/products/prod-8.png" alt="Macchiato">
+              <div class="flex-center">
+                <span class="tag-product">TRADICIONAL</span>
+                <span class="tag-product">COM LEITE</span>
+              </div>
+              
+              <div class="product-title">
+                <h3>Macchiato</h3>
+                <p>Café expresso misturado com um pouco de leite quente e espuma</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box-product">
+              <img src="./img/products/prod-9.png" alt="Mocaccino">
+              <div class="flex-center">
+                <span class="tag-product">TRADICIONAL</span>
+                <span class="tag-product">COM LEITE</span>
+              </div>
+              
+              <div class="product-title">
+                <h3>Mocaccino</h3>
+                <p>Café expresso com calda de chocolate, pouco leite e espuma</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box-product">
+              <img src="./img/products/prod-10.png" alt="Chocolate Quente">
+              <div class="flex-center">
+                <span class="tag-product">ESPECIAL</span>
+                <span class="tag-product">COM LEITE</span>
+              </div>
+              
+              <div class="product-title">
+                <h3>Chocolate Quente</h3>
+                <p>Bebida feita com chocolate dissolvido no leite quente e café</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="box-product">
+              <img src="./img/products/prod-11.png" alt="Cubano">
+              <div class="flex-center">
+                <span class="tag-product">ESPECIAL</span>
+                <span class="tag-product">ALCÓLICO</span>
+                <span class="tag-product">GELADO</span>
+              </div>
+              
+              <div class="product-title">
+                <h3>Cubano</h3>
+                <p>Bebida feita com chocolate dissolvido no leite quente e café</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          
+            <div class="box-product">
+              <img src="./img/products/prod-12.png" alt="Havaiano">
+              <div class="flex-center">
+                <span class="tag-product">ESPECIAL</span>
+              </div>
+              
+              <div class="product-title">
+                <h3>Havaiano</h3>
+                <p>Bebida adocicada preparada com café e leite de coco</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-product">
+              <img src="./img/products/prod-13.png" alt="Árabe">
+              <div class="flex-center">
+                <span class="tag-product">ESPECIAL</span>
+              </div>
+              
+              <div class="product-title">
+                <h3>Árabe</h3>
+                <p>Bebida preparada com grãos de café árabe e especiarias</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          
+            <div class="box-product">
+              <img src="./img/products/prod-14.png" alt="Irlandês">
+              <div class="flex-center">
+                <span class="tag-product">ESPECIAL</span>
+                <span class="tag-product">ALCÓLICO</span>
+              </div>
+              
+              <div class="product-title">
+                <h3>Irlandês</h3>
+                <p>Bebida a base de café, uísque irlandês, açúcar e chantilly</p>
+              </div>
+
+              <div class="box-bottom">
+                <div class="price">
+                  <span class="currency">R$</span>
+                  <span class="value">9,90</span>
+                </div>
+                <div class="count">
+                  <i class="fa-solid fa-minus"></i>
+                  <p id="number">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container-footer">
+          <a href="/"><h2 class="logo">Coffe shop</h2></a>
+          <p>Com o Coffe Shop você tem acesso aos mais variados tipos de cafés do mercado.</p>
+          <hr>
+          <div class="flex-between">
+            <span>2025 &copy Todos os direitos reservados - <strong>Coffe Shop</strong></span>
+            <div class="flex-center">
+              <span>Voltar ao topo</span>
+              <i class="fa-solid fa-arrow-up"></i>
+            </div>
+          </div>
+
+        </footer>
+      </div>
+      
+    </main> 
+  </body>
+</html>

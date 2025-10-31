@@ -1,0 +1,16 @@
+:root{
+    --primary-color : #332A1A;
+    --second-color : #CA9875;
+    --primary-white : #E5F9EF;
+    --secondary-white: #F3F2F2;
+    --primary-green : #00955A;
+    --purple : #8047F8;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Baloo 2", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
