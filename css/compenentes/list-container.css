@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     background-color: var(--white);
     gap: 10px;  
     width: 100%;
@@ -35,4 +36,11 @@
 
 .grid-list-container .route-item .fa-solid{
     font-size: 1rem;
+}
+
+@media (min-width:768px){
+    .grid-list-container{
+        min-width: 80%;
+    }
+    
 }

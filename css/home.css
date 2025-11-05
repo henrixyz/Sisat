@@ -86,7 +86,7 @@
     .container-main-content{
         display: flex;
         /* background-color: #90caf9; */
-        max-width: 640px;
+        min-width: 640px;
         align-items: center;
     }
 
