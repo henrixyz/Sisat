@@ -85,8 +85,8 @@
 @media (min-width:768px){
     .container-main-content{
         display: flex;
-        /* background-color: #90caf9; */
         min-width: 640px;
+        height: auto;
         align-items: center;
     }
 

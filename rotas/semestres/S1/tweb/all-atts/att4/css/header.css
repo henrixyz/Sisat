@@ -42,3 +42,12 @@
     display: flex;
     column-gap: 8px;
 }
+
+@media (max-width: 480px) {
+
+    .container-header{
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+}
+}
