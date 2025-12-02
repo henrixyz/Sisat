@@ -40,8 +40,8 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 7rem);
-    gap: 20px;
+    grid-template-columns: repeat(3, 7rem);
+    gap: 8px;
     justify-content: center;
     align-items: center;
     
